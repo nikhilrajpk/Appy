@@ -1,0 +1,85 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.header-main{
+    background-color: #080923;
+}
+.header-main a{
+    transition: all ease-in-out 1000ms !important;
+}
+.header-main a:hover{
+    color: #e53f27 !important;
+}
+.header-main ul li ul li a:hover{
+    background-color: #e53f27 !important;
+    color: #080923 !important;
+}
+.color-drop{
+    background-color: #e53f27 !important;
+    border-bottom: 5px solid #080923 !important;
+}
+
+/* section 1 */
+
+.section-leaf{
+    height: 50rem;
+}
+.section-leaf h1{
+    font-size: 5rem;
+    font-weight: 800;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.img-leaf{
+    left: 50%;
+    top: 12rem;
+    transform: translateX(-50%);
+    width: 10rem;
+}
+
+/* media query at width 1024 */
+
+@media (max-width: 1025px){
+    .section-leaf h1{
+        font-size: 4rem;
+    }
+    .img-leaf{
+        width: 8rem;
+    }
+    .section-leaf{
+        height: 40rem;
+    }
+}
+
+/* media query at width 768 */
+
+@media (max-width: 769px){
+    .section-leaf h1{
+        font-size: 3rem;
+    }
+    .img-leaf{
+        width: 8rem;
+    }
+}
+
+/* media query at width 576 */
+
+@media (max-width: 577px){
+    .section-leaf h1{
+        font-size: 3rem;
+    }
+    .img-leaf{
+        width: 7rem;
+    }
+    .section-leaf{
+        height: 40rem;
+    }
+}
+
+.section-text{
+    color: #e53f27;
+}
+
+pre{
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+}
