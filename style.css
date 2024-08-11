@@ -81,7 +81,7 @@ body{
 .section-text{
     color: #e53f27;
 }
-
 pre{
     font-family: Georgia, 'Times New Roman', Times, serif !important;
+    scrollbar-width: none;
 }
