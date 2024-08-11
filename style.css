@@ -43,7 +43,7 @@ body{
 
 @media (max-width: 1025px){
     .section-leaf h1{
-        font-size: 4rem;
+        font-size: 3rem;
     }
     .img-leaf{
         width: 8rem;
@@ -52,7 +52,6 @@ body{
         height: 40rem;
     }
 }
-
 /* media query at width 768 */
 
 @media (max-width: 769px){
